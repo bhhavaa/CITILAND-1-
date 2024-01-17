@@ -10,11 +10,13 @@ TagManager:
   - backgroundImage
   - elementText
   - amountText
+  - VRGazeInteractable
+  - Speaker
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - TileLayer
   - Water
   - UI
   - 

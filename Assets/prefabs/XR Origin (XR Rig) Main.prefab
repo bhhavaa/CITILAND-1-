@@ -1137,6 +1137,7 @@ GameObject:
   - component: {fileID: 6188417274423127251}
   - component: {fileID: 3662349554943741536}
   - component: {fileID: 8171688659420845633}
+  - component: {fileID: 2896251534329246437}
   m_Layer: 0
   m_Name: Right Controller
   m_TagString: Untagged
@@ -1821,6 +1822,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   realtimeView: {fileID: 6188417274423127251}
+--- !u!114 &2896251534329246437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4645849603809888653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d137200dd066249ae5a5871c27617c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goodmorningTTS: {fileID: 8300000, guid: 2c57b2789a492d342ab8bcc127d1abc8, type: 3}
 --- !u!1 &6605740635147928411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,58 +2201,26 @@ MonoBehaviour:
   m_PositionInput:
     m_UseReference: 1
     m_Action:
-      m_Name: Position
+      m_Name: 
       m_Type: 0
-      m_ExpectedControlType: Vector3
-      m_Id: f5845ed7-1b37-4662-b421-04d3135a18b8
+      m_ExpectedControlType: 
+      m_Id: 
       m_Processors: 
       m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: 1ae1517a-b791-4315-9f04-dfe2b31ba589
-        m_Path: <XRHMD>/centerEyePosition
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Position
-        m_Flags: 0
-      - m_Name: 
-        m_Id: db7a6507-6ae7-44b1-9817-b8f57cecd69f
-        m_Path: <HandheldARInputDevice>/devicePosition
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Position
-        m_Flags: 0
+      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 7862207684358717888, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_RotationInput:
     m_UseReference: 1
     m_Action:
-      m_Name: Rotation
+      m_Name: 
       m_Type: 0
-      m_ExpectedControlType: Quaternion
-      m_Id: b90b021d-947e-4a5c-84aa-d808ae10861d
+      m_ExpectedControlType: 
+      m_Id: 
       m_Processors: 
       m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: fd0bd16b-28ec-4060-b595-2a8c3d0c47ae
-        m_Path: <XRHMD>/centerEyeRotation
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Rotation
-        m_Flags: 0
-      - m_Name: 
-        m_Id: fc0ed004-3d50-4421-b421-6b6b374ab374
-        m_Path: <HandheldARInputDevice>/deviceRotation
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Rotation
-        m_Flags: 0
+      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: -530380113134220495, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
