@@ -6,7 +6,82 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Greet
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Face_03
+    second: {fileID: 2100000, guid: 3bdb06682e5514940bdc5063f22792db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Face_4
+    second: {fileID: 2100000, guid: 3bdb06682e5514940bdc5063f22792db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Legs_Skin3
+    second: {fileID: 2100000, guid: 3bdb06682e5514940bdc5063f22792db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SunGLasses2
+    second: {fileID: 2100000, guid: 768d1205da0f6be4c9a8cce7145ae72f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_baniyan2
+    second: {fileID: 2100000, guid: 3bdb06682e5514940bdc5063f22792db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_finger_gloves2
+    second: {fileID: 2100000, guid: bd875aafc7fcb914bb8bbc62ca947be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_jeans2
+    second: {fileID: 2100000, guid: bd875aafc7fcb914bb8bbc62ca947be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_kneegaps2
+    second: {fileID: 2100000, guid: bd875aafc7fcb914bb8bbc62ca947be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_pant_4
+    second: {fileID: 2100000, guid: bd875aafc7fcb914bb8bbc62ca947be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_shoe_5
+    second: {fileID: 2100000, guid: bd875aafc7fcb914bb8bbc62ca947be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_shoe_6
+    second: {fileID: 2100000, guid: bd875aafc7fcb914bb8bbc62ca947be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_t_shirt2
+    second: {fileID: 2100000, guid: bd875aafc7fcb914bb8bbc62ca947be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_thighs2
+    second: {fileID: 2100000, guid: 3bdb06682e5514940bdc5063f22792db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert19
+    second: {fileID: 2100000, guid: bd875aafc7fcb914bb8bbc62ca947be6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert20
+    second: {fileID: 2100000, guid: bd875aafc7fcb914bb8bbc62ca947be6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +122,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
